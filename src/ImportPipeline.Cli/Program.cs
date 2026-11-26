@@ -6,7 +6,7 @@ using ImportPipeline.Rates;
 using ImportPipeline.Reports;
 
 var culture = CultureInfo.GetCultureInfo("pt-BR");
-var path = args.FirstOrDefault(arg => !arg.StartsWith("--", StringComparison.Ordinal))
+var path = PositionalArguments(args).FirstOrDefault()
     ?? Path.Combine(AppContext.BaseDirectory, "data", "sales.csv");
 var workers = ReadOption(args, "--workers", defaultValue: 4);
 
@@ -59,6 +59,21 @@ foreach (var month in SalesReports.MonthlyTrend(summary.Imported))
 {
     var growth = month.GrowthPercent is { } value ? $"{value:+0.0;-0.0}%" : "-";
     Console.WriteLine($"  {month.Month:00}/{month.Year}  {month.Total.ToString("C", culture),15}  {growth,8}");
+}
+
+// Argumentos que não são opções nem o valor de uma opção ("--workers 4").
+static IEnumerable<string> PositionalArguments(string[] args)
+{
+    for (var i = 0; i < args.Length; i++)
+    {
+        if (args[i].StartsWith("--", StringComparison.Ordinal))
+        {
+            i++;
+            continue;
+        }
+
+        yield return args[i];
+    }
 }
 
 static int ReadOption(string[] args, string name, int defaultValue)
