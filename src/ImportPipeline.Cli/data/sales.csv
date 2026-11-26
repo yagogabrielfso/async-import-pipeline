@@ -1,0 +1,48 @@
+order_id,date,region,product,quantity,unit_price,currency
+PED-0001,2026-09-13,Sudeste,Teclado mecânico,1,450.00,BRL
+PED-0002,2026-09-04,Nordeste,SSD 1TB,1,95.94,USD
+PED-0003,2026-09-02,Sudeste,Headset,4,390.00,BRL
+PED-0004,2026-09-08,Sudeste,Mouse sem fio,4,180.00,BRL
+PED-0005,2026-09-04,Sul,Notebook,1,715.50,EUR
+PED-0006,2026-09-13,Sudeste,Headset,2,66.44,EUR
+PED-0007,2026-09-28,Sul,Notebook,3,774.91,USD
+PED-0008,2026-09-18,Sudeste,Mouse sem fio,3,180.00,BRL
+PED-0009,2026-09-04,Norte,Headset,2,390.00,BRL
+PED-0005,2026-09-04,Sul,Notebook,1,715.50,EUR
+PED-0010,2026-09-18,Sudeste,Teclado mecânico,1,450.00,BRL
+PED-0011,2026-09-16,Norte,Headset,4,390.00,BRL
+PED-0012,2026-09-15,Norte,SSD 1TB,4,520.00,BRL
+PED-0013,2026-09-08,Sul,Teclado mecânico,2,450.00,BRL
+PED-0014,2026-09-10,Norte,Notebook,4,715.50,EUR
+PED-0015,2026-10-10,Norte,Teclado mecânico,1,83.03,USD
+PED-0016,2026-10-14,Sul,Notebook,3,774.91,USD
+PED-0017,2026-10-14,Sudeste,Monitor 27,1,276.75,USD
+PED-0018,2026-10-19,Nordeste,SSD 1TB,3,95.94,USD
+PED-9001,2026-10-31,Sul,Notebook,1,800.00,JPY
+PED-0019,2026-10-20,Centro-Oeste,Webcam Full HD,4,320.00,BRL
+PED-0020,2026-10-09,Centro-Oeste,Notebook,1,4200.00,BRL
+PED-0021,2026-10-21,Norte,Notebook,4,4200.00,BRL
+PED-0022,2026-10-22,Nordeste,Teclado mecânico,1,450.00,BRL
+PED-9002,2026-13-01,Sul,Mouse sem fio,1,180.00,BRL
+PED-0023,2026-10-06,Norte,Mouse sem fio,1,180.00,BRL
+PED-0024,2026-10-07,Nordeste,Mouse sem fio,2,180.00,BRL
+PED-0025,2026-10-13,Centro-Oeste,Webcam Full HD,4,320.00,BRL
+PED-0026,2026-10-15,Centro-Oeste,Notebook,3,4200.00,BRL
+PED-9003,2026-11-05,Norte,Headset,zero,390.00,BRL
+PED-0027,2026-10-28,Norte,Monitor 27,3,1500.00,BRL
+PED-0028,2026-10-12,Centro-Oeste,Webcam Full HD,2,320.00,BRL
+PED-0029,2026-11-06,Sul,Monitor 27,2,1500.00,BRL
+PED-0030,2026-11-01,Centro-Oeste,Webcam Full HD,2,320.00,BRL
+PED-9004,2026-11-06,Norte,Headset
+PED-0031,2026-11-01,Sul,Teclado mecânico,4,450.00,BRL
+PED-0032,2026-11-20,Norte,Headset,3,390.00,BRL
+PED-0033,2026-11-20,Sudeste,Monitor 27,4,276.75,USD
+PED-0034,2026-11-13,Centro-Oeste,SSD 1TB,4,95.94,USD
+PED-0035,2026-11-16,Centro-Oeste,Mouse sem fio,1,180.00,BRL
+PED-0036,2026-11-07,Centro-Oeste,Monitor 27,2,1500.00,BRL
+PED-0037,2026-11-20,Sudeste,Notebook,1,4200.00,BRL
+PED-0038,2026-11-05,Norte,Notebook,1,715.50,EUR
+PED-0039,2026-11-01,Sudeste,Teclado mecânico,2,76.66,EUR
+PED-0040,2026-11-05,Nordeste,Headset,3,390.00,BRL
+PED-0041,2026-11-16,Sudeste,Headset,1,390.00,BRL
+PED-0042,2026-11-15,Centro-Oeste,SSD 1TB,4,95.94,USD

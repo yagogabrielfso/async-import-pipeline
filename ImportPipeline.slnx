@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ImportPipeline/ImportPipeline.csproj" />
+    <Project Path="src/ImportPipeline.Cli/ImportPipeline.Cli.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ImportPipeline.Tests/ImportPipeline.Tests.csproj" />
+  </Folder>
+</Solution>
