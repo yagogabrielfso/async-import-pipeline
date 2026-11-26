@@ -46,7 +46,7 @@ foreach (var rejected in summary.Rejected)
 Console.WriteLine();
 Console.WriteLine("Vendas por região");
 foreach (var region in SalesReports.ByRegion(summary.Imported))
-    Console.WriteLine($"  {region.Region,-10} {region.Orders,3} pedidos  {region.Total.ToString("C", culture),15}  {region.Share,5}%");
+    Console.WriteLine($"  {region.Region,-13} {region.Orders,3} pedidos  {region.Total.ToString("C", culture),15}  {region.Share,5}%");
 
 Console.WriteLine();
 Console.WriteLine("Top 3 produtos");
